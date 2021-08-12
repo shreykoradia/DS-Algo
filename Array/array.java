@@ -1,3 +1,4 @@
+// This  is a question depicting how to deal with array how to intialise array and how to print the array 
 package Array;
 
 import java.util.*;
