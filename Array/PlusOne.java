@@ -45,7 +45,7 @@ import java.util.Scanner;
             PlusOne ob = new PlusOne(); 
             Scanner sc  = new Scanner(System.in);
             int lengthOfArray ;
-            System.out.println("Enter the length for the array ");
+            System.out.println("Enter the length for the array that you want to make  ");
             lengthOfArray = sc.nextInt();
             // initalising array 
             int[] arr  = new int[lengthOfArray] ;
