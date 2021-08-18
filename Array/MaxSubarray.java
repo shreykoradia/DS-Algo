@@ -32,11 +32,12 @@ class MaxSubarray {
                 if(max_ending_here < 0){
                     max_ending_here = 0;
                 }
+                //-2,1,-3,4,-1,2,1,-5,4
                 // the below prints says each value in each iterate !
-              //  System.out.println(max_ending_here);
+               System.out.println(max_ending_here);
             }
-            System.out.println(" ");
-            System.out.println(max_ending_here);
+            // System.out.println(" ");
+            // System.out.println(max_ending_here);
         }   
 
         public static void main(String[] args) {
