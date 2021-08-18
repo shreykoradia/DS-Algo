@@ -27,13 +27,13 @@ import java.util.Scanner;
                     }
                     arr[i] = 0;
                 }
-                
+
                 int[] arra = new int[arr.length+1];
                 arra[0] = 1;
                
-                for (int i : arra) {
-                    System.out.println(arra[i]);
-                }
+                // for (int i : arra) {
+                //     System.out.println(arra[i]);
+                // }
                 return arra;
 
                 
@@ -58,3 +58,20 @@ import java.util.Scanner;
             sc.close();
         }    
 }
+
+// leet code solution that was verifed !but need to configure for IB
+
+/*   for(int i=nums.length-1;i>=0;i--)
+    {
+        if(nums[i]<9)
+        {
+            nums[i]++;
+            return nums;
+        }
+        nums[i]=0;
+    }
+    int[] numss = new int[nums.length+1];
+    numss[0]=1;
+    
+    
+    return numss;*/
