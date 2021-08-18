@@ -33,6 +33,7 @@ class MaxSubarray {
                     max_ending_here = 0;
                 }
                 //-2,1,-3,4,-1,2,1,-5,4
+                // 5,4,-1,7,8
                 // the below prints says each value in each iterate !
                System.out.println(max_ending_here);
             }
