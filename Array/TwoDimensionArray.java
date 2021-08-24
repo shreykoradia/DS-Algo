@@ -43,6 +43,8 @@ public class TwoDimensionArray {
                     System.out.print(arr[i][j]+"\t");  
                 }  
             }  
+
+            System.out.println("Printing the col value of[0]" + arr[0].length);
             sc.close();
     }
 }
