@@ -36,3 +36,5 @@ import java.util.Scanner;
 
 
 // this is a leet code question the question no is 229 henceforth if any more doubt in the question read it on leetcode.com
+
+// the first apporach is if the arr values are more than 1 time than it will just give us the  value 
