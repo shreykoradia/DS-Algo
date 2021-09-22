@@ -7,10 +7,24 @@ public class RotateSearch {
         if(l > h){
             return -1;
         }
+        
         int mid = (l+h) / 2 ;
+
         if(arr[mid] == k){
             return mid ;
         }
+
+        if(arr[l] <= arr[mid]){
+            if(k >= arr[l] && k <= arr[mid]){
+                return search(arr , l , mid-1 , k);
+            }
+            return search(arr , mid+1 , h ,k);
+        }
+
+        if (k >= arr[mid] && k <= arr[h])
+        return search(arr, mid + 1, h, k);
+
+    return search(arr, l, mid - 1, k);
 
     }    
 
@@ -23,6 +37,16 @@ public class RotateSearch {
         for(int i = 0 ; i<values;i++){
             System.out.println("Enter the values of the Array in order ");
             arr[i] = sc.nextInt();
+        }
+        int k ;
+        System.out.println("Enter the value of key : ");
+        k = sc.nextInt();
+        int i = search(arr ,0 , values-1 , k);
+        if(i != -1){
+            System.out.println("Index" + i);
+        }        
+        else{
+            System.out.println("Key or K is not found");
         }
         sc.close();
     }
